@@ -32,7 +32,7 @@ public class ResetCarPosition : MonoBehaviour
             {
                 // Move the car to the last checkpoint's position and reset its rotation
                 carTransform.position = lastCheckpoint.position;
-                carTransform.rotation = lastCheckpoint.rotation; // Reset orientation as well
+                // carTransform.rotation = lastCheckpoint.rotation; // Reset orientation as well
                 Debug.Log("Car reset to last checkpoint: " + lastCheckpoint.name);
             }
             else
