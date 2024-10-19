@@ -7,7 +7,7 @@ public class ResetSystem : MonoBehaviour
     private Rigidbody rb;
     [SerializeField] private TrackCheckpoints trackCheckpoints; // Reference to TrackCheckpoints
     [SerializeField] private Transform startPoint; // Fallback start point if no checkpoints have been crossed
-    public int DropVelocity;
+    public int DropVelocity = -45;
 
     void Start()
     {
