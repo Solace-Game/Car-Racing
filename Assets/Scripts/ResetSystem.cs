@@ -7,6 +7,7 @@ public class ResetSystem : MonoBehaviour
     private Rigidbody rb;
     [SerializeField] private TrackCheckpoints trackCheckpoints; // Reference to TrackCheckpoints
     [SerializeField] private Transform startPoint; // Fallback start point if no checkpoints have been crossed
+    public int DropVelocity;
 
     void Start()
     {
@@ -16,7 +17,7 @@ public class ResetSystem : MonoBehaviour
 
     void Update()
     {
-        if (rb.velocity.y <= -15 || Input.GetKeyDown(KeyCode.R)){
+        if (rb.velocity.y <= DropVelocity || Input.GetKeyDown(KeyCode.R)){
             Reset();
         }
     }
@@ -31,6 +32,7 @@ public class ResetSystem : MonoBehaviour
         {
             // Move the car to the last checkpoint's position and reset its rotation
             rb.position = lastCheckpoint.position;
+            rb.rotation = lastCheckpoint.rotation * Quaternion.Euler(0, 90, 0);
             // rb.rotation = lastCheckpoint.rotation; // Reset orientation as well
             Debug.Log("Car reset to last checkpoint: " + lastCheckpoint.name);
         }
