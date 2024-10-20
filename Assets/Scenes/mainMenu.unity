@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -158,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5203202, y: -47.10521}
+  m_AnchoredPosition: {x: 3.5203202, y: -24.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130084553
@@ -204,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 130084554}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1783910846}
+        m_TargetAssemblyTypeName: MainMenu, VehicleBehaviour
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &130084554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,7 +292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5203202, y: 3.5401337}
+  m_AnchoredPosition: {x: 3.5203202, y: 24.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217252064
@@ -1001,7 +1014,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Car racing 2
+  m_text: Car Racing 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3a1cb6a61e79294cb504aa83bc42421, type: 2}
   m_sharedMaterial: {fileID: 2725405523226303930, guid: a3a1cb6a61e79294cb504aa83bc42421, type: 2}
@@ -1238,7 +1251,7 @@ Transform:
   m_GameObject: {fileID: 1783910844}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.873352, y: -5.2040405, z: -395.12805}
+  m_LocalPosition: {x: -14.873352, y: -80, z: -395.12805}
   m_LocalScale: {x: 4.225, y: 3.3626, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1296,7 +1309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5203202, y: -21.648712}
+  m_AnchoredPosition: {x: 3.5203202, y: -0.5}
   m_SizeDelta: {x: 250, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800481613

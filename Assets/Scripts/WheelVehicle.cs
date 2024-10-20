@@ -10,7 +10,7 @@ namespace VehicleBehaviour {
         
         [Header("Inputs")]
    
-        [SerializeField] bool isPlayer = true;
+        [SerializeField] bool isPlayer = false;
         public bool IsPlayer { get => isPlayer;
             set => isPlayer = value;
         } 
