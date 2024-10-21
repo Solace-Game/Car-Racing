@@ -24,7 +24,6 @@ namespace VehicleBehaviour {
 	    string boostInput => m_Inputs.BoostInput;
         // inputs in manager  to be read 
         
-        
         [SerializeField] AnimationCurve turnInputCurve = AnimationCurve.Linear(-1.0f, -1.0f, 1.0f, 1.0f);
 
         [Header("Wheels")]

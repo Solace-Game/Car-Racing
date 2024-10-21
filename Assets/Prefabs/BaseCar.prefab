@@ -20315,6 +20315,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4629044809684432}
     m_Modifications:
+    - target: {fileID: -2416733968201007103, guid: 2bdb67dd109374a0cb46d1c3f285d23d, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8382d4ecdfd03a3469e096c4ee4554f2, type: 2}
     - target: {fileID: 100000, guid: 2bdb67dd109374a0cb46d1c3f285d23d, type: 3}
       propertyPath: m_Name
       value: Car02
