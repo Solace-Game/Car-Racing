@@ -6675,7 +6675,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - GLOW_ON
+  - BEVEL_ON
   - UNDERLAY_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -6705,13 +6705,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
-        m_Texture: {fileID: 2800000, guid: 212a98bf252c8d74d88b602271664021, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Ambient: 0.5
-    - _Bevel: 0.693
+    - _Ambient: 0.817
+    - _Bevel: 0.16
     - _BevelClamp: 0
     - _BevelOffset: 0
     - _BevelRoundness: 0
@@ -6720,32 +6720,32 @@ Material:
     - _BumpOutline: 0
     - _ColorMask: 15
     - _CullMode: 0
-    - _Diffuse: 0.5
-    - _FaceDilate: -0.09
+    - _Diffuse: 0.642
+    - _FaceDilate: -0.11
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
-    - _GlowInner: 0.537
-    - _GlowOffset: 0
-    - _GlowOuter: 0.062
-    - _GlowPower: 0.179
+    - _GlowInner: 1
+    - _GlowOffset: -0.58
+    - _GlowOuter: 0
+    - _GlowPower: 1
     - _GradientScale: 10
-    - _LightAngle: 3.1416
+    - _LightAngle: 2.05
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
-    - _OutlineSoftness: 0.018
+    - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0.16
+    - _OutlineWidth: 0.198
     - _PerspectiveFilter: 0.875
-    - _Reflectivity: 10
+    - _Reflectivity: 15
     - _ScaleRatioA: 0.9
-    - _ScaleRatioB: 0.81225
-    - _ScaleRatioC: 0.406125
+    - _ScaleRatioB: 0.83024997
+    - _ScaleRatioC: 0.83024997
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
     - _Sharpness: 0
-    - _SpecularPower: 2
+    - _SpecularPower: 4
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -6753,7 +6753,7 @@ Material:
     - _StencilWriteMask: 255
     - _TextureHeight: 1024
     - _TextureWidth: 1024
-    - _UnderlayDilate: 1
+    - _UnderlayDilate: -0.07
     - _UnderlayOffsetX: 1
     - _UnderlayOffsetY: 1
     - _UnderlaySoftness: 0
@@ -6764,12 +6764,12 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 0.01132071, g: 0.000120080505, b: 0, a: 1}
-    - _GlowColor: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 0.5}
+    - _FaceColor: {r: 7.075928, g: 1.175054, b: 0, a: 1}
+    - _GlowColor: {r: 1, g: 0.22833163, b: 0, a: 0.2509804}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0.2679245, g: 0.026577542, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 0, b: 0, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
